@@ -1,0 +1,6 @@
+
+
+Linked List : items are not stored in contiguous way, and it's divided into blocks, one pointing to the other.
+
+1. Draw it on pen and paper and visualise it.
+2. Don't think while implementing - you'll get confused.
