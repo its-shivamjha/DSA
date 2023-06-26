@@ -56,6 +56,17 @@ public class Main {
         System.out.println();
         list3.display();
 
+        System.out.println("Circular Linked List: ");
+        CirclularLL list4 = new CirclularLL();
+        list4.insert(1);
+        list4.insert(2);
+        list4.insert(3);
+        list4.insert(4);
+
+        list4.display();
+
+        list4.delValue(3);
+        list4.display();
 
 
 

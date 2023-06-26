@@ -4,3 +4,4 @@ Linked List : items are not stored in contiguous way, and it's divided into bloc
 
 1. Draw it on pen and paper and visualise it.
 2. Don't think while implementing - you'll get confused.
+3. Check edge cases when not getting output properly.
