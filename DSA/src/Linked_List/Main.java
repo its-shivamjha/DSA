@@ -64,7 +64,6 @@ public class Main {
         list4.insert(4);
 
         list4.display();
-
         list4.delValue(3);
         list4.display();
 
