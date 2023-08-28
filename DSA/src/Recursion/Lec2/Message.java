@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Lec2;
 
 public class Message {
     //Print message 5 times without using the function five times or

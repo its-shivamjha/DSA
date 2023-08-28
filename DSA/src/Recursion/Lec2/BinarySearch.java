@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Lec2;
 
 public class BinarySearch {
     //BINARY SEARCH USING RECURSION :
