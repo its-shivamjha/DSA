@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class first {
     public static void main(String[] args) {
 
-                    //run time -creating object at runtime -Dynamic memory allocation
+        //run time -creating object at runtime -Dynamic memory allocation
         int[] arr =new int[5];
         //compiled time
         //new is used to create an object.
