@@ -4,7 +4,11 @@ import java.util.Arrays;
 
 public class InPlace {
     public static void main(String[] args) {
+<<<<<<< HEAD
         int[] arr = {1,8,9,5,11,32,5,6,7,1};
+=======
+        int[] arr = {5,4,3,2,1};
+>>>>>>> e879585d7afa0ecd8934cc5456c774be053518de
         mergeSort(arr,0,arr.length);
         System.out.println(Arrays.toString(arr));
 
