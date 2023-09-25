@@ -1,4 +1,4 @@
-package Recursion.Subset;
+package Recursion.Lec9;
 
 
 // LOGIC : For each recursive call the string goes in with leaving the first character (substring)
@@ -88,16 +88,16 @@ public class Skip {
     }
 
     // printing the output 
-    static void skip2(String str, String ans){
-        if(str.isEmpty()){
-            System.out.println(ans);
+    static void skip2(String p, String up){
+        if(p.isEmpty()){
+            System.out.println(up);
             return;
         }
 
-        if(str.charAt(0) == 'a'){
-            skip2(str.substring(1),ans);
+        if(p.charAt(0) == 'a'){
+            skip2(p.substring(1),up);
         }else{
-            skip2(str.substring(1), ans+str.charAt(0));
+            skip2(p.substring(1), up+p.charAt(0));
         }
     }
     

@@ -45,7 +45,7 @@ public class InputOutput {
         System.out.println(str);
 
 
-
+        s.close();
 
     }
 }

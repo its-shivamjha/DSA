@@ -45,6 +45,6 @@ public class array2D {
         }
 
         //System.out.println(arr);  this won't work
-
+        in.close();
         }
 }

@@ -1,6 +1,5 @@
 package Recursion.Lec3;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class LinearSearch {
@@ -50,7 +49,7 @@ public class LinearSearch {
     }
 
     // RETURNING ARRAYLIST by taking list in argument
-    static ArrayList mulLinearSearch2(int[] arr, int index, int target, ArrayList<Integer> list){
+    static ArrayList<Integer> mulLinearSearch2(int[] arr, int index, int target, ArrayList<Integer> list){
         if(index == arr.length){
             return list;
         }
@@ -61,7 +60,7 @@ public class LinearSearch {
     }
 
     // RETURNING ARRAYLIST without list in argument
-    static ArrayList mulLinearSearch3(int[] arr, int index, int target){
+    static ArrayList<Integer> mulLinearSearch3(int[] arr, int index, int target){
         ArrayList<Integer> list = new ArrayList<>();
         if(index == arr.length){
             return list;

@@ -1,6 +1,5 @@
 package Strings;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class test {
@@ -12,7 +11,7 @@ public class test {
 
         String a = new String("New String");
         System.out.println(a);
-
+        in.close();
 
     }
 }

@@ -6,9 +6,9 @@ public class DoublyLL {
     Node tail;
     int size = 0;
 
-    public DoublyLL() {
-        this.size = size;
-    }
+    // public DoublyLL() {
+    //     this.size = size;
+    // }
 
     public void insertFirst(int val){
         Node node = new Node(val);
@@ -132,15 +132,15 @@ public class DoublyLL {
             this.val = val;
         }
 
-        public Node(int val, Node next) {
-            this.val = val;
-            this.next = next;
-        }
+        // public Node(int val, Node next) {
+        //     this.val = val;
+        //     this.next = next;
+        // }
 
-        public Node(int val, Node next, Node prev) {
-            this.val = val;
-            this.next = next;
-            this.prev = prev;
-        }
+        // public Node(int val, Node next, Node prev) {
+        //     this.val = val;
+        //     this.next = next;
+        //     this.prev = prev;
+        // }
     }
 }

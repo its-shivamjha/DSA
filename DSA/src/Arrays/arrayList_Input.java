@@ -41,6 +41,7 @@ public class arrayList_Input {
         }
 
         System.out.println(list1);
+        in.close();
 
     }
 }

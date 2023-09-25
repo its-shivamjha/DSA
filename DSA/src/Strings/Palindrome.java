@@ -7,6 +7,7 @@ public class Palindrome {
         Scanner in = new Scanner(System.in);
         String enter= in.nextLine();
         System.out.println(check(enter));
+        in.close();
     }
 
 
@@ -14,9 +15,6 @@ public class Palindrome {
     static boolean check(String str){
         str = str.toLowerCase();
         int n = str.length();
-        if(str == null){
-            return true;
-        }
         for(int i =0;i<n/2;i++) {
             if (str.charAt(i) != str.charAt(n-i-1)){
                 return false;

@@ -7,7 +7,6 @@ public class bs {
     }
 
     static int binarySearch(int[] arr, int t){
-        int n = arr.length;
         int s = 0;
         int e = arr.length-1;
 

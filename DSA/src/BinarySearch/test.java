@@ -18,6 +18,7 @@ public class test {
 
         cgpa = ((cgpa*creditYet)+(gpa*credit))/(credit+ creditYet);
         System.out.format("%.2f",cgpa);
+        in.close();
 
     }
 }

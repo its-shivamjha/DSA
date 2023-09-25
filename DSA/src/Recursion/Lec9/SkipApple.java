@@ -1,4 +1,4 @@
-package Recursion.Subset;
+package Recursion.Lec9;
 
 public class SkipApple {
     public static void main(String[] args) {

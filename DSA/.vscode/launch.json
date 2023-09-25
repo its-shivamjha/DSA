@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "keypad",
+            "request": "launch",
+            "mainClass": "Recursion.RecLast.keypad",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "Abc",
+            "request": "launch",
+            "mainClass": "Recursion.RecLast.Abc",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "Abc",
+            "request": "launch",
+            "mainClass": "Recursion.Permutations.Abc",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "SubsetIterative",
+            "request": "launch",
+            "mainClass": "Recursion.Subset.SubsetIterative",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "Ascii",
+            "request": "launch",
+            "mainClass": "Recursion.Subset.Ascii",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "Subset",
+            "request": "launch",
+            "mainClass": "Recursion.Subset.Subset",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
+            "name": "skipApp",
+            "request": "launch",
+            "mainClass": "Recursion.Subset.skipApp",
+            "projectName": "DSA_b9e47c07"
+        },
+        {
+            "type": "java",
             "name": "SkipApple",
             "request": "launch",
             "mainClass": "Recursion.Subset.SkipApple",

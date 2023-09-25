@@ -1,6 +1,5 @@
 package LinearSearch;
 
-import java.util.Arrays;
 
 public class SearchInString {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 
-package Recursion.QuickSort;
+package Recursion.Lec8;
 
 import java.util.Arrays;
 
@@ -34,6 +34,7 @@ public class QuickSort {
                 end--;
             }
 
+            // start and end will point to the indices which needs to be swapped 
             // swap the elements
             if(start <= end){
                 int temp = arr[start];
