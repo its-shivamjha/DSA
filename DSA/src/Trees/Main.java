@@ -15,10 +15,18 @@ public class Main {
         // bst.insert(13);
         // bst.insert(69);
         // bst.insert(3);
-        bst.populate(scanner);
-        bst.display();
-        bst.preOrder();
-        System.out.println(bst.balance()); 
+        // bst.populate(scanner);
+        // bst.display();
+        // bst.preOrder();
+        // System.out.println(bst.balance()); 
+
+
+
+        AVL2 avl = new AVL2();
+        for(int i = 0;i<1000;i++){
+            avl.insert(i);
+        }
+        System.out.println(avl.height());
 
 
     }

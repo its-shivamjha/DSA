@@ -47,6 +47,10 @@ public class BinarySearchTree {
     }
 
 
+    // if we try directly using node as an argument in the next function coz root is private 
+    // and the objects of BST class can't pass a node from outside coz class "Node" is private
+    // and they are unaware of all these.
+
     public void preOrder(){
         System.out.println("PreOrder: ");
         preOrder(root);
@@ -57,8 +61,8 @@ public class BinarySearchTree {
     public void preOrder(Node node){
         if(node == null) return;
         System.out.print(node.value+" ");       // print the root (a time will come when left and right will also become root then print it)
-        preOrder(node.left);
-        preOrder(node.right);
+        preOrder(node.left);                    // for inOrder sout in middle.
+        preOrder(node.right);                   // for postOrder sout in end.
     }
 
 
