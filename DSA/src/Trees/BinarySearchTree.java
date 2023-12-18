@@ -110,5 +110,4 @@ public class BinarySearchTree {
         return Math.abs(height(node.left)-height(node.right))<=1 && balance(node.left) && balance(node.right);
     }
 
-
 }

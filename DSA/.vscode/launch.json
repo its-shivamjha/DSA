@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "HashMaps.Main",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
       "name": "SegmentTrees",
       "request": "launch",
       "mainClass": "Trees.SegmentTrees",
