@@ -1,4 +1,4 @@
-package Recursion.Lec9;
+package Recursion.Subsets;
 
 
 // LOGIC : For each recursive call the string goes in with leaving the first character (substring)

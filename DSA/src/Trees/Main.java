@@ -2,6 +2,8 @@ package Trees;
 
 import java.util.Scanner;
 
+import Trees.Self_Balancing.AVL2;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

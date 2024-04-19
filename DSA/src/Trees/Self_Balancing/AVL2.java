@@ -1,4 +1,4 @@
-package Trees;
+package Trees.Self_Balancing;
 
 public class AVL2 {
     private class  Node {

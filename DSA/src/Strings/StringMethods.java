@@ -19,11 +19,5 @@ public class StringMethods {
         String two = " shiv Jha";
         System.out.println(two.trim());
 
-
-
-
-
-
-
     }
 }

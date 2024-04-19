@@ -1,4 +1,4 @@
-package Trees;
+package Trees.Self_Balancing;
 
 import java.util.Scanner;
 

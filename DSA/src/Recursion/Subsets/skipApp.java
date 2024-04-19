@@ -1,4 +1,4 @@
-package Recursion.Lec9;
+package Recursion.Subsets;
 
 public class skipApp {
     // only skip the app when it is not equal to apple

@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SymbolTable",
+      "request": "launch",
+      "mainClass": "Bitwise.SymbolTable",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Bitwise.Main1",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Bitwise.Main",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "HashMaps.Main",

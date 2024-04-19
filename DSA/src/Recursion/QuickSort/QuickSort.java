@@ -1,5 +1,5 @@
 
-package Recursion.Lec6;
+package Recursion.QuickSort;
 
 import java.util.Arrays;
 
