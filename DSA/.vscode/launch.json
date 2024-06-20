@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "Patterns.CyclicSort.MissingNumber",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Patterns.CyclicSort.Main",
+      "projectName": "DSA_b9e47c07"
+    },
+    {
+      "type": "java",
       "name": "SymbolTable",
       "request": "launch",
       "mainClass": "Bitwise.SymbolTable",

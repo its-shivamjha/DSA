@@ -5,7 +5,7 @@ public class WinnerTree {
     private int[] tree;
 
     public WinnerTree(int[] arr) {
-        this.tree = buildTree1(arr);
+        this.tree = buildTree(arr);
     }
 
     private int[] buildTree(int[] arr) {
@@ -34,7 +34,7 @@ public class WinnerTree {
         int[] tree = new int[n*2-1];
 
         for(int i = 0;i<n;i++){
-            tree[n-1+i] = i;
+            tree[n-i+1] = i;
         }
 
         for(int i = n-2; i>= 0;i--){

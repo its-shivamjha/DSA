@@ -8,15 +8,16 @@ public class CeilingFloor {
     }
 
     static int ceiling(int[] arr,int target){           //ceiling of a number is the smallest number which is greater than or equals to target.
+        if (target > arr[arr.length - 1]) { // if there's no number greater than target
+            return -1;
+        }
         int start = 0;
         int end = arr.length-1;
 
         while(start<=end){
             int mid = start + (end -start)/2;
 
-            if(target > arr[arr.length-1]){        //if there's no number greater than target
-                return -1;
-            }
+            
             if(target== arr[mid]){
                 return mid;
             }
